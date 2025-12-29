@@ -1,0 +1,10 @@
+INSERT INTO menu (id, pizzeria_id, pizza_name, price)
+VALUES (19, 2, 'greek pizza', 800);
+
+-- скрипт проверки 
+-- SELECT count(*) = 1 AS CHECK
+-- FROM menu
+-- WHERE id = 19
+--  AND pizzeria_id = 2
+--  AND pizza_name = 'greek pizza'
+--  AND price = 800;
